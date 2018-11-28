@@ -48,7 +48,7 @@
   <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
 
   <!-- Device Tree For SM-T530NU -->
-  <project path=".repo/local_manifests" name="sub77/local_manifests/" revision="cm-14.1" remote="GitHubMods" />
+  <!-- <project path=".repo/local_manifests" name="sub77/local_manifests/" revision="cm-14.1" remote="GitHubMods" /> -->
   
   <!-- ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps --> 
   <!-- <project path="packages/apps/ViPER4Android" name="MoKee/android_packages_apps_ViPER4Android" revision="mkm" remote="MoKee" /> --> 

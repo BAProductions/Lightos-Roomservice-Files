@@ -11,28 +11,6 @@
            sync-c="true"
            sync-j="4"
 		   clone-depth="1" />
-
-  <!-- Not Building On A Mac Or For An Emulator So This I Dont Need -->	  
-  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9"/>
-
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-
-  <remove-project name="platform/prebuilts/android-emulator" />
-
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6"/>
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
-
-  <remove-project name="platform/prebuilts/eclipse" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
-  <remove-project name="platform/prebuilts/go/darwin-x86"/>
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   
   <!-- Apps I Never Use Or End Up Replacing Anyways -->
   <remove-project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" /> 
@@ -60,8 +38,6 @@
   <project path="packages/apps/Polyhymnia" name="MoKee/android_packages_apps_Polyhymnia" revision="mkn-mr1" remote="MoKee" />
  
   <!-- MoKee Apps -->
-  <!-- TODO: Don't Know If This Works? -->
-  <project path="packages/apps/SamsungServiceMode" name="MoKee/android_packages_apps_SamsungServiceMode" revision="mkn-mr1" remote="MoKee" />
   <!-- Notapad Apps Works But Look Ulgy Yay -->
   <project path="packages/apps/Notepad" name="MoKee/android_packages_apps_Notepad" revision="kk_mkt" remote="MoKee" />
   <project path="packages/apps/Notes" name="BAProductions/Notes" revision="lightos-1.0" remote="GitHubMods" />

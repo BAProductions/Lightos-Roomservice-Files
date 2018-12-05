@@ -22,7 +22,7 @@
   <remove-project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <remove-project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" />
   <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-  <!-- Not Needed Since 7.1.2 Will Get No More Update-->
+  <!-- Not Needed Since 7.1.2 Will Get No More Update May Add Updater To Rom In The Feture Not Sure Yet-->
   <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
 
   <!-- ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps --> 
@@ -60,9 +60,13 @@
   <!-- <project path="packages/apps/FlickLauncher" name="AutumnMacro/FlickLauncher" groups="pdk-fs" revision="master" remote="GitHubMods" />  --> 
   <!-- <project path="packages/apps/Lawnchair" name="BAProductions/android_packages_apps_Lawnchair" groups="pdk-fs" revision="n-mr2" remote="GitHubMods" /> -->
   <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3-OLD" groups="pdk-fs" revision="n-mr2" remote="GitHubMods" /> 
+  <!-- <project path="packages/apps/Launcher3" name="muhammadkamranlatifraza/FlickLauncher" groups="pdk-fs" revision="master" remote="GitHubMods" /> -->
   <!-- <project path="packages/apps/Launcher3" name="amirzaidi/Launcher3" groups="pdk-fs" revision="n-mr1" remote="GitHubMods" /> --> 
   <!-- <project path="packages/apps/Lawnchair" name="BAProductions/Lawnchair" groups="pdk-fs" revision="alpha" remote="GitHubMods" /> -->
   
+  <remove-project  path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <remove-project  path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="packages/apps/Weather" name="Sparker0i/Weather" revision="master" remote="GitHubMods" />
   <!-- Wallpaper & Screensaver -->
   <!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
   <remove-project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" />
